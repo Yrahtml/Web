@@ -1,0 +1,36 @@
+# Залежності та пакети (якщо використовуєте npm/yarn)
+node_modules/
+jspm_packages/
+web_modules/
+
+# Логи
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Папки збірки та дистрибутивів (якщо використовуєте webpack, vite, gulp тощо)
+dist/
+build/
+.out/
+.next/
+
+# Секретні ключі та змінні оточення (налаштування API, доступи)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Системні файли (macOS та Windows)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Налаштування редакторів коду (якщо не хочете ділитися своїми темами чи конфігами)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
